@@ -6,7 +6,7 @@
 /*   By: kganem <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/10/14 16:51:37 by kganem            #+#    #+#             */
-/*   Updated: 2016/10/14 17:09:08 by kganem           ###   ########.fr       */
+/*   Updated: 2016/10/17 17:30:47 by kganem           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ t_conf			*read_file(int *fd, t_conf *conf)
 {
 	char		*buff;
 	int			i;
-	t_tetris		*tetris;
+	t_tetris	*tetris;
 	int			last_read;
 	int			now_read;
 
