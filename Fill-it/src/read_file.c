@@ -12,6 +12,14 @@
 
 #include "../include/fillit.h"
 
+/* open_file verifie que c'est bien un fichier, pas un repertoire.
+conf devient le fichier, read_file le lit, s'il convient, il est returner.
+read_file verifie si le last_read a bien 21 characters et que le dernier fichier en a 20
+pour eviter les retour a la ligne du dernier fichier lu.
+Tant que le fichier est lu, il regarde si on peut creer un tetris avec create_tetris,
+si oui --> create_tetris et ca return le fichier, sinon on return NULL */
+
+
 t_conf			*open_file(char *file, t_conf *conf)
 {
 	int			fd;
