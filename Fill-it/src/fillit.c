@@ -12,7 +12,7 @@
 
 #include "../include/fillit.h"
 
-/* malloc la struct conf, conf devient le fichier, s'il est different de null 
+/* malloc la struct conf, conf devient le fichier, s'il est different de NULL 
 et que argc == 2, ca fait le bail, sinon ca return error */
 
 
